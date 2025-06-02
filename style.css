@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #121212; /* 어두운 배경 */
+    color: #e0e0e0; /* 밝은 텍스트 */
+  }
+  
+  .login-box {
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: #1f1f1f; /* 카드 스타일 배경 */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  }
+  
+  h2 {
+    margin-bottom: 24px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  input, button {
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  input {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+    border: 1px solid #444;
+  }
+  
+  input::placeholder {
+    color: #aaaaaa;
+  }
+  
+  button {
+    background-color: #2979ff;
+    color: #ffffff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1565c0;
+  }
+  
