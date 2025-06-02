@@ -37,7 +37,7 @@ export async function loginUser() {
       alert('로그인 성공!');
 
       // 로그인 성공 후 admin-dashboard.html로 이동
-      window.location.href = '../passwordList/manage-codes.html';  // 상대 경로로 이동
+      window.location.href = '/adminOTP/passwordList/manage-codes.html';  // 상대 경로로 이동
     } else {
       alert('아이디 또는 비밀번호가 일치하지 않습니다.');
     }
